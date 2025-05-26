@@ -16,5 +16,4 @@ jobs:
         uses: DecentAppsNet/deploy@v1
         with:
           app-name: ${{ vars.APP_NAME }}
-        env:
           api-key: ${{ secrets.DECENT_API_KEY }}
