@@ -1,3 +1,7 @@
-"scripts": {
-  "build": "rsync -av --exclude='.*' --exclude='package.json' ./ ./dist"
+{
+  "name": "decent-info",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsync -av --exclude='.*' --exclude='package.json' ./ ./dist"
+  }
 }
